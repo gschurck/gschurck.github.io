@@ -11,40 +11,82 @@ h1 {
 	font-size: 70px;
 }
 
+h2 {
+	font-size: 40px;
+}
+
 hr {
-	width: 100%;
+	width: 50%;
     border: 0;
     height: 1px;
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), white, rgba(0, 0, 0, 0));
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
+.container {
+	display: flex;
+	justify-content: center;
+}
 
-.iframe1 {
+.apercu {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 50px;
+}
+
+.iframe {
 	height: 0px;
 	max-height: 0px;
+	max-width: 0;
+	width: 0px;
 	opacity: 0;
- 	transition: 1s max-height ease 1s;
+  transition: opacity 0.5s, max-height 0.5s 0.2s, height 0.5s 0.2s, max-width 0.5s 0.2s , width 0.5s 0.2s;
 }
 
-.nymeria {
+.projet {
 	overflow: visible;
-	max-height: 200px;
-  background-color: blue;
- 	transition: 1s max-height ease 1s;
+	height: 150px;
+	max-height: 150px;
+  background-color: #0c0c0d;
+  /*transition: max-height 0.1s ease-in-out 0.5s, 2s max-width ease;*/
+  border-radius: 30px;
+  box-shadow: 0 0 10px black;
+  width: 30vw;
+  max-width: 30vw;
+   	transition: max-height 0.5s, height 0.5s, 0.5s max-width ease, 0.5s width; 
+   	transition-delay: 0.5s;
 }
 
 
-.nymeria:hover {
+.projet:hover {
 	max-height: 1000px;
- 	transition: 1s max-height ease 1s;
+	height: 1000px;
+	  width: 80vw;
+	max-width: 80vw;
+	   transition: 0.5s max-height ease, 0.5s max-width ease, 0.5s width;
+
 }
 
-.nymeria:hover .iframe1 {
-	height: 700px;
-	max-height: 700px;
+.projet:hover .iframe {
+	height: 800px;
+	max-height: 800px;
 	opacity: 1;
-	transition: 1s max-height ease, opacity 1s ease-in-out 1s;
+	/*border: solid 10px white;*/
+	width: 1422px;
+	max-width: 100%;
+	transition: opacity 0.5s 0.5s;
+}
 
+
+@keyframes open {
+	0% {
+		max-width: 30vw;
+	}
+	100% {
+		max-width: 80vw;
+	}
 }
 
 
