@@ -46,7 +46,7 @@ hr {
 	max-width: 0;
 	width: 0px;
 	opacity: 0;
-  transition: opacity 0.5s, max-height 0.5s 0.2s, height 0.5s 0.2s, max-width 0.5s 0.2s , width 0.5s 0.2s;
+  transition: opacity 0.5s, max-height 0.5s 0.5s, height 0.5s 0.5s, max-width 0.5s 0.5s , width 0.5s 0.5s;
 }
 
 .projet {
@@ -60,7 +60,7 @@ hr {
   width: 30vw;
   max-width: 30vw;
    	transition: max-height 0.5s, height 0.5s, 0.5s max-width ease, 0.5s width; 
-   	transition-delay: 0.5s;
+   	transition-delay: 0.3s;
 }
 
 
