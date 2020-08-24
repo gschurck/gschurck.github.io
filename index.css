@@ -12,7 +12,17 @@ h1 {
 }
 
 h2 {
-	font-size: 40px;
+	font-size: 50px;
+	margin-bottom: 100px;
+}
+
+h4 {
+	font-weight: lighter;
+}
+
+a {
+	text-decoration: none;
+	color: white;
 }
 
 hr {
@@ -24,8 +34,13 @@ hr {
     margin-bottom: 50px;
 }
 
+
 .reseaux {
 	margin-bottom: 100px;
+}
+
+.texte {
+
 }
 
 .container {
@@ -37,7 +52,6 @@ hr {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	margin-bottom: 50px;
 }
 
 .iframe {
@@ -50,17 +64,19 @@ hr {
 }
 
 .projet {
+	position: relative;
 	overflow: visible;
-	height: 150px;
-	max-height: 150px;
+	height: 200px;
+	max-height: 200px;
   background-color: #0c0c0d;
   /*transition: max-height 0.1s ease-in-out 0.5s, 2s max-width ease;*/
   border-radius: 30px;
   box-shadow: 0 0 10px black;
-  width: 30vw;
-  max-width: 30vw;
+  width: 50vw;
+  max-width: 50vw;
    	transition: max-height 0.5s, height 0.5s, 0.5s max-width ease, 0.5s width; 
    	transition-delay: 0.3s;
+	padding: 50px;
 }
 
 
@@ -70,7 +86,7 @@ hr {
 	  width: 60vw;
 	max-width: 80vw;
 	   transition: 0.5s max-height ease, 0.5s max-width ease, 0.5s width;
-
+  	display: block;
 }
 
 .projet:hover .iframe {
@@ -83,16 +99,22 @@ hr {
 	transition: opacity 0.5s 0.5s;
 }
 
+.invisble {
+	opacity: 0
 
-@keyframes open {
-	0% {
-		max-width: 30vw;
-	}
-	100% {
-		max-width: 80vw;
-	}
 }
 
+@media screen and (max-width: 750px) { 
+  .projet { 
+    min-width: 80vw;
+    max-width: 80vw;
+    width: 80vw;
+  } 
+} 
+
+.phone {
+
+}
 
 /*
 .iframe1 {
