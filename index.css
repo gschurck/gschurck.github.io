@@ -99,9 +99,8 @@ hr {
 	transition: opacity 0.5s 0.5s;
 }
 
-.invisble {
+.invisible {
 	opacity: 0
-
 }
 
 @media screen and (max-width: 750px) { 
