@@ -99,6 +99,24 @@ hr {
 	transition: opacity 0.5s 0.5s;
 }
 
+.screen {
+height: 0px;
+	max-height: 0px;
+	max-width: 0;
+	width: 0px;
+	opacity: 0;
+  transition: opacity 0.5s, max-height 0.5s 0.5s, height 0.5s 0.5s, max-width 0.5s 0.5s , width 0.5s 0.5s;
+}
+
+.projet:hover .screen {
+	height: 800px;
+	max-height: 800px;
+	opacity: 1;
+	width: 1422px;
+	max-width: 100%;
+	transition: opacity 0.5s 0.5s;
+}
+
 .invisible {
 	opacity: 0
 }
