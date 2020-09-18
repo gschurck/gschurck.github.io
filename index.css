@@ -39,10 +39,6 @@ hr {
 	margin-bottom: 100px;
 }
 
-.texte {
-
-}
-
 .container {
 	display: flex;
 	justify-content: center;
@@ -121,17 +117,44 @@ height: 0px;
 	opacity: 0
 }
 
-@media screen and (max-width: 750px) { 
-  .projet { 
-    min-width: 80vw;
-    max-width: 80vw;
-    width: 80vw;
-  } 
-} 
-
-.phone {
+.phone-screen {
+	display: none;
+	height: 0px;
+	max-height: 0px;
+	max-width: 0;
+	width: 0px;
+	opacity: 0;
+  transition: opacity 0.5s, max-height 0.5s 0.5s, height 0.5s 0.5s, max-width 0.5s 0.5s , width 0.5s 0.5s;
 
 }
+
+@media screen and (max-width: 750px) { 
+	.screen {
+		display: none;
+	}
+	.phone-screen {
+		display: block;
+	}
+  .projet { 
+    min-width: 85vw;
+	width: 85vw;
+	
+  } 
+  .projet:hover {
+	max-height: 700px;
+	height: 700px;
+  }
+  .projet:hover .phone-screen {
+	height: 500px;
+	max-height: 500px;
+	opacity: 1;
+	width: auto;
+	max-width: 100%;
+	transition: opacity 0.5s 0.5s;
+	margin: 0 auto;
+  }
+} 
+
 
 /*
 .iframe1 {
