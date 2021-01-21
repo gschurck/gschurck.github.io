@@ -27,11 +27,11 @@ a {
 
 hr {
 	width: 50%;
-    border: 0;
-    height: 1px;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), white, rgba(0, 0, 0, 0));
-    margin-top: 50px;
-    margin-bottom: 50px;
+	border: 0;
+	height: 1px;
+	background-image: linear-gradient(to right, rgba(0, 0, 0, 0), white, rgba(0, 0, 0, 0));
+	margin-top: 50px;
+	margin-bottom: 50px;
 }
 
 
@@ -56,7 +56,7 @@ hr {
 	max-width: 0;
 	width: 0px;
 	opacity: 0;
-  transition: opacity 0.5s, max-height 0.5s 0.5s, height 0.5s 0.5s, max-width 0.5s 0.5s , width 0.5s 0.5s;
+	transition: opacity 0.5s, max-height 0.5s 0.5s, height 0.5s 0.5s, max-width 0.5s 0.5s, width 0.5s 0.5s;
 }
 
 .projet {
@@ -64,14 +64,14 @@ hr {
 	overflow: visible;
 	height: 200px;
 	max-height: 200px;
-  background-color: #0c0c0d;
-  /*transition: max-height 0.1s ease-in-out 0.5s, 2s max-width ease;*/
-  border-radius: 30px;
-  box-shadow: 0 0 10px black;
-  width: 50vw;
-  max-width: 50vw;
-   	transition: max-height 0.5s, height 0.5s, 0.5s max-width ease, 0.5s width; 
-   	transition-delay: 0.3s;
+	background-color: #0c0c0d;
+	/*transition: max-height 0.1s ease-in-out 0.5s, 2s max-width ease;*/
+	border-radius: 30px;
+	box-shadow: 0 0 10px black;
+	width: 50vw;
+	max-width: 50vw;
+	transition: max-height 0.5s, height 0.5s, 0.5s max-width ease, 0.5s width;
+	transition-delay: 0.3s;
 	padding: 50px;
 }
 
@@ -79,10 +79,10 @@ hr {
 .projet:hover {
 	max-height: 1000px;
 	height: 1000px;
-	  width: 60vw;
+	width: 60vw;
 	max-width: 80vw;
-	   transition: 0.5s max-height ease, 0.5s max-width ease, 0.5s width;
-  	display: block;
+	transition: 0.5s max-height ease, 0.5s max-width ease, 0.5s width;
+	display: block;
 }
 
 .projet:hover .iframe {
@@ -96,19 +96,19 @@ hr {
 }
 
 .screen {
-height: 0px;
+	height: 0px;
 	max-height: 0px;
 	max-width: 0;
 	width: 0px;
 	opacity: 0;
-  transition: opacity 0.5s, max-height 0.5s 0.5s, height 0.5s 0.5s, max-width 0.5s 0.5s , width 0.5s 0.5s;
+	transition: opacity 0.5s, max-height 0.5s 0.5s, height 0.5s 0.5s, max-width 0.5s 0.5s, width 0.5s 0.5s;
 }
 
 .projet:hover .screen {
-	height: 800px;
-	max-height: 800px;
+	height: 600px;
+	max-height: 600px;
 	opacity: 1;
-	width: 1422px;
+	width: auto;
 	max-width: 100%;
 	transition: opacity 0.5s 0.5s;
 }
@@ -124,36 +124,40 @@ height: 0px;
 	max-width: 0;
 	width: 0px;
 	opacity: 0;
-  transition: opacity 0.5s, max-height 0.5s 0.5s, height 0.5s 0.5s, max-width 0.5s 0.5s , width 0.5s 0.5s;
+	transition: opacity 0.5s, max-height 0.5s 0.5s, height 0.5s 0.5s, max-width 0.5s 0.5s, width 0.5s 0.5s;
 
 }
 
-@media screen and (max-width: 750px) { 
+@media screen and (max-width: 750px) {
 	.screen {
 		display: none;
 	}
+
 	.phone-screen {
 		display: block;
 	}
-  .projet { 
-    min-width: 85vw;
-	width: 85vw;
-	
-  } 
-  .projet:hover {
-	max-height: 700px;
-	height: 700px;
-  }
-  .projet:hover .phone-screen {
-	height: 500px;
-	max-height: 500px;
-	opacity: 1;
-	width: auto;
-	max-width: 100%;
-	transition: opacity 0.5s 0.5s;
-	margin: 0 auto;
-  }
-} 
+
+	.projet {
+		min-width: 85vw;
+		width: 85vw;
+
+	}
+
+	.projet:hover {
+		max-height: 700px;
+		height: 700px;
+	}
+
+	.projet:hover .phone-screen {
+		height: 500px;
+		max-height: 500px;
+		opacity: 1;
+		width: auto;
+		max-width: 100%;
+		transition: opacity 0.5s 0.5s;
+		margin: 0 auto;
+	}
+}
 
 
 /*
