@@ -2,7 +2,7 @@
 title: "Trouve Ton Meme"
 # weight: 1
 # aliases: ["/first"]
-tags: ["projects"]
+tags: ["projects", "python", "django"]
 #author: "Me"
 # author: ["Me", "You"] # multiple authors
 showToc: true
@@ -20,7 +20,7 @@ searchHidden: true
 ShowReadingTime: true
 ShowBreadCrumbs: true
 ShowPostNavLinks: true
-ShowWordCount: true
+ShowWordCount: false
 ShowRssButtonInSectionTermList: true
 UseHugoToc: true
 weight: 1
@@ -30,15 +30,12 @@ cover:
     caption: "<text>" # display caption under cover
     relative: false # when using page bundles set this to true
     hidden: true # only hide on current single page
-editPost:
-    URL: "https://github.com/<path_to_repo>/content"
-    Text: "Suggest Changes" # edit text
-    appendFilePath: true # to append file path to Edit link
 ---
 
-# Bot de trading
+# Website Touve Ton Meme
 
 ![Screenshot](/trouve_ton_meme.png)
+
 
 ## Technologies
 

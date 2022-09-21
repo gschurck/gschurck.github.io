@@ -2,7 +2,7 @@
 title: "TraDOGE: Crypto trading bot with Twitter"
 # weight: 1
 # aliases: ["/first"]
-tags: ["projects"]
+tags: ["projects","python", "cryptocurrency"]
 author: "Me"
 # author: ["Me", "You"] # multiple authors
 showToc: true
@@ -37,6 +37,8 @@ editPost:
 ---
 
 # Bot de trading
+
+[Github Repository](https://github.com/gschurck/tradoge)
 
 ![Screenshot](/tradoge.png)
 

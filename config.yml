@@ -15,8 +15,8 @@ params:
     buttons:
       - name: Projects
         url: "/projects"
-      - name: Blog
-        url: "/blog"
+      #- name: Blog
+      #  url: "/blog"
 
   socialIcons:
     - name: github
@@ -31,11 +31,11 @@ menu:
       name: projects
       url: /projects/
       weight: 10
-    - identifier: blog
-      name: blog
-      url: /blog/
-      weight: 20
-    - identifier: about
-      name: about
-      url: https://example.org
-      weight: 30
+    #- identifier: blog
+    #  name: blog
+    #  url: /blog/
+    #  weight: 20
+    #- identifier: about
+    #  name: about
+    #  url: https://example.org
+    #  weight: 30
