@@ -1,0 +1,41 @@
+languageCode: en-us
+title: Guillaume Schurck
+theme: PaperMod
+
+params:
+  profileMode:
+    enabled: true
+    defaultTheme: auto
+    #title: "<Title>" # optional default will be site title
+    subtitle: "Developer"
+    imageUrl: https://avatars.githubusercontent.com/u/21091232
+    #imageTitle: "<title of image as alt>" # optional
+    imageWidth: 120 # custom size
+    imageHeight: 120 # custom size
+    buttons:
+      - name: Projects
+        url: "/projects"
+      #- name: Blog
+      #  url: "/blog"
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/gschurck"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/guillaume-schurck/"
+    - name: twitter
+      url: "https://twitter.com/gschurck"
+menu:
+  main:
+    - identifier: projects
+      name: projects
+      url: /projects/
+      weight: 10
+    #- identifier: blog
+    #  name: blog
+    #  url: /blog/
+    #  weight: 20
+    #- identifier: about
+    #  name: about
+    #  url: https://example.org
+    #  weight: 30
