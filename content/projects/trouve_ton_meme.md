@@ -45,6 +45,7 @@ cover:
 - Django
 - Django-Unicorn for components with Ajax requests refresh without page reload
 - S3 storage for media files
+- Redis cache
 
 ## Features
 
