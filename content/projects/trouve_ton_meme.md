@@ -23,7 +23,7 @@ ShowPostNavLinks: true
 ShowWordCount: false
 ShowRssButtonInSectionTermList: true
 UseHugoToc: true
-weight: 1
+weight: 2
 cover:
     image: "/trouve_ton_meme.png" # image path/url
     alt: "<alt text>" # alt text
@@ -37,7 +37,6 @@ cover:
 [Website link](https://jsklgnvatw.eu07.qoddiapp.com)
 
 ![Screenshot](/trouve_ton_meme.png)
-
 
 ## Technologies
 
