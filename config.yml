@@ -13,7 +13,7 @@ params:
     
     I like to create things."
     imageUrl: https://avatars.githubusercontent.com/u/21091232
-    #imageTitle: "<title of image as alt>" # optional
+    imageTitle: "<title of image as alt>" # optional
     imageWidth: 120 # custom size
     imageHeight: 120 # custom size
     buttons:
