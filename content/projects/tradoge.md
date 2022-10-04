@@ -23,7 +23,7 @@ ShowPostNavLinks: true
 ShowWordCount: true
 ShowRssButtonInSectionTermList: true
 UseHugoToc: true
-weight: 2
+weight: 3
 cover:
     image: "/tradoge2.png" # image path/url
     alt: "<alt text>" # alt text
