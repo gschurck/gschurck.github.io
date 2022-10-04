@@ -23,7 +23,7 @@ ShowPostNavLinks: true
 ShowWordCount: false
 ShowRssButtonInSectionTermList: true
 UseHugoToc: true
-weight: 2
+weight: 3
 cover:
     image: "/trouve_ton_meme.png" # image path/url
     alt: "<alt text>" # alt text
