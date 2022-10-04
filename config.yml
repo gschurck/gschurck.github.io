@@ -29,6 +29,7 @@ params:
       url: "https://www.linkedin.com/in/guillaume-schurck/"
     - name: twitter
       url: "https://twitter.com/gschurck"
+  tocopen: true
   hideFooter: true
 menu:
   main:
