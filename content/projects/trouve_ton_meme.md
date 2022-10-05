@@ -34,6 +34,13 @@ cover:
 
 # Website Touve Ton Meme
 
+A website to find memes to use in chats according to:
+
+- Categories
+- Search by describing the image you are looking for
+
+> Still in development, images are random examples currently.
+
 [Website link](https://jsklgnvatw.eu07.qoddiapp.com)
 
 ![Screenshot](/trouve_ton_meme.png)

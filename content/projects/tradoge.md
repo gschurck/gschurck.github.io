@@ -34,6 +34,8 @@ cover:
 
 # Bot de trading
 
+DOGE trading bot for instantly buying and selling DOGE cryptocurrency on Binance when Elon Musk tweets about it.
+
 [Github Repository](https://github.com/gschurck/tradoge)
 
 ![Screenshot](/tradoge.png)
