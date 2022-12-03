@@ -31,6 +31,8 @@ params:
       url: "https://twitter.com/gschurck"
   tocopen: true
   hideFooter: true
+  ShowFullTextinRSS: true
+  ShowRssButtonInSectionTermList: true
 menu:
   main:
     - identifier: projects
