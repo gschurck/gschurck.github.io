@@ -52,7 +52,7 @@ Just enter 2 softwares of which you would like to find an alternative, and you w
 - Which ends with a knowledge graph of softwares similarity
 - Results are a shortest path query sorted according to the level of similarity, from one software to the other.
 
-![Graph](/bloom-visualisation.png)
+![Graph](/bloom-visualisation-cropped.png)
 
 ## Technologies
 
