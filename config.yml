@@ -2,6 +2,16 @@ languageCode: en-us
 title: Guillaume Schurck
 theme: PaperMod
 googleAnalytics: G-0GDW3G85ZR
+defaultContentLanguage: en
+languages:
+  en:
+    params:
+      linkedin: https://www.linkedin.com/in/guillaume-schurck/?locale=en_US
+    weight: 1
+  fr:
+    params:
+      linkedin: https://www.linkedin.com/in/guillaume-schurck
+    weight: 2
 
 params:
   profileMode:
@@ -33,6 +43,7 @@ params:
   hideFooter: true
   ShowFullTextinRSS: true
   ShowRssButtonInSectionTermList: true
+
 menu:
   main:
     - identifier: projects
