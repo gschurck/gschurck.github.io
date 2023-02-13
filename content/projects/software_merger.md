@@ -1,8 +1,8 @@
 ---
-title: "Software Merger: Combine 2 softwares to get alternatives"
+title: "Software Finder: A new way to find softwares alternatives"
 # weight: 1
 # aliases: ["/first"]
-tags: ["projects","graph","neo4j","python", "fastapi","svelte"]
+tags: ["projects","graph","neo4j","svelte", "sveltekit", "typescript", "serverless", "vercel"]
 showToc: true
 TocOpen: false
 draft: false
@@ -23,7 +23,7 @@ ShowRssButtonInSectionTermList: true
 UseHugoToc: true
 weight: 1
 cover:
-    image: "/bloom-visualisation.png" # image path/url
+    image: "/software-finder.png" # image path/url
     alt: "<alt text>" # alt text
     caption: "<text>" # display caption under cover
     relative: false # when using page bundles set this to true
@@ -41,9 +41,9 @@ So I wanted to use a different way of finding things.
 With this tool, no more need to detail specific features.
 Just enter 2 softwares of which you would like to find an alternative, and you will get a mixture of both.
 
-[Project link](https://software-graph.netlify.app/)
+[Project link](https://software-graph.vercel.app)
 
-![](/software_merger.png)
+![](/software-finder.png)
 
 ## Under the hood
 
@@ -57,15 +57,19 @@ Just enter 2 softwares of which you would like to find an alternative, and you w
 ## Technologies
 
 - Neo4j
-- Python
-- FastAPI
-- Svelte
+- Sveltekit
 - TypeScript
+- Serverless
+- TailwindCSS
 
 ## Features
 
 - Select 2 softwares
 - Get the list of all alternatives which have similar features of both softwares.
+![](/software-merger.png)
+  
+- Explore the graph of the whole software ecosystem
+![](/software-graph.png)
 
 ## Issues
 
