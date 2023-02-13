@@ -1,5 +1,5 @@
 ---
-title: "Software Finder: A new way to find softwares alternatives"
+title: "Software Finder: A new way to find software alternatives"
 # weight: 1
 # aliases: ["/first"]
 tags: ["projects","graph","neo4j","svelte", "sveltekit", "typescript", "serverless", "vercel"]
