@@ -6,7 +6,7 @@ tags: ["projects","graph","neo4j","svelte", "sveltekit", "typescript", "serverle
 showToc: true
 TocOpen: false
 draft: false
-hidemeta: false
+hidemeta: true
 comments: false
 description: "A knowledge graph of softwares similarity"
 canonicalURL: "https://canonical.url/to/page"

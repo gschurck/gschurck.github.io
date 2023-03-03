@@ -8,7 +8,7 @@ author: "Me"
 showToc: true
 TocOpen: false
 draft: false
-hidemeta: false
+hidemeta: true
 comments: false
 description: "Crypto Twitter trading bot"
 canonicalURL: "https://canonical.url/to/page"

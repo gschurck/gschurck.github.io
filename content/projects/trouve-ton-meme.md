@@ -3,12 +3,12 @@ title: "Trouve Ton Meme"
 # weight: 1
 # aliases: ["/first"]
 tags: ["projects", "python", "django"]
-#author: "Me"
+author: "Me"
 # author: ["Me", "You"] # multiple authors
 showToc: true
 TocOpen: false
 draft: false
-hidemeta: false
+hidemeta: true
 comments: false
 description: "Crypto Twitter trading bot"
 canonicalURL: "https://canonical.url/to/page"
