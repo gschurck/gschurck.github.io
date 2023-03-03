@@ -1,5 +1,5 @@
 ---
-title: "Trouve Ton Meme"
+title: "Trouve Ton Meme: Meme finder website"
 # weight: 1
 # aliases: ["/first"]
 tags: ["projects", "python", "django"]
@@ -10,7 +10,7 @@ TocOpen: false
 draft: false
 hidemeta: true
 comments: false
-description: "Crypto Twitter trading bot"
+description: "Don't lose time searching for a meme"
 canonicalURL: "https://canonical.url/to/page"
 disableHLJS: true # to disable highlightjs
 disableShare: false
@@ -32,8 +32,6 @@ cover:
     hidden: true # only hide on current single page
 ---
 
-# Website Touve Ton Meme
-
 A website to find memes to use in chats according to:
 
 - Categories
@@ -41,7 +39,7 @@ A website to find memes to use in chats according to:
 
 > Still in development, images are random examples currently.
 
-[Website link](https://jsklgnvatw.eu07.qoddiapp.com)
+[Website link (will be up again soon)](https://jsklgnvatw.eu07.qoddiapp.com)
 
 ![Screenshot](/trouve_ton_meme.png)
 
