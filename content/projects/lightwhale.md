@@ -38,6 +38,8 @@ That's why I wanted to create this tool.
 
 Lightwhale can automatically save the memory state of containers that have not been used for a while, and instantly restore them when a request reaches them.
 
+> This project is still in work in progress, I will open source it once it's ready.
+
 ## Video demonstration
 
 {{< youtube miGcR-hPLTI >}}
@@ -65,3 +67,7 @@ The tool can also track all new containers to automatically add them to its data
 - Go
 - Proxy
 - Iptables
+
+## Limitations
+
+Because Lightwhale uses incoming requests to guess when a container is not in use and to trigger the restoration of the container, it can't work with containers running long-running processes or cron jobs.
