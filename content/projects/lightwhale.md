@@ -1,0 +1,67 @@
+---
+title: "🐋 Lightwhale: Docker memory optimizer on Linux"
+# weight: 1
+# aliases: ["/first"]
+tags: ["projects"]
+author: "Me"
+# author: ["Me", "You"] # multiple authors
+showToc: true
+TocOpen: false
+draft: false
+hidemeta: true
+comments: false
+description: "Free up memory of your unused Docker containers"
+canonicalURL: "https://canonical.url/to/page"
+disableHLJS: true # to disable highlightjs
+disableShare: false
+disableHLJS: false
+hideSummary: false
+searchHidden: true
+ShowReadingTime: true
+ShowBreadCrumbs: true
+ShowPostNavLinks: true
+ShowWordCount: false
+ShowRssButtonInSectionTermList: true
+UseHugoToc: true
+weight: 3
+---
+
+## Intro
+
+Often you'll have a lot of Docker containers running on your computer or server, and you don't really use them much. So they are still running and taking up precious memory.
+
+Okay, but wait, if we shut down these containers to free up memory, we have to start them up again later, and that takes time and it's not very convenient or optimal.
+
+It would be really cool if we could free up that memory while keeping the containers accessible and ready to use when we need them, right?
+
+That's why I wanted to create this tool.
+
+Lightwhale can automatically save the memory state of containers that have not been used for a while, and instantly restore them when a request reaches them.
+
+## Video demonstration
+
+{{< youtube miGcR-hPLTI >}}
+
+## Architecture
+
+Lightwhale automatically saves the memory state of containers that have not been used for a while and stops them.
+
+By routing all container requests through a proxy, Lightwhale can hold a request (to what is essentially a non-existent container), restore the container with its memory state, and then pass the request through.
+
+It uses [Docker checkpoints](https://docs.docker.com/engine/reference/commandline/checkpoint/) under the hood to save and restore memory state of containers.
+
+The tool can also track all new containers to automatically add them to its database and route requests to new container ports through the proxy using iptables.
+
+### Architecture diagram
+
+> You can zoom in on the diagram by clicking on it
+
+![](/lightwhale-mermaid-diagram.svg)
+
+## Technologies
+
+- Linux
+- Docker
+- Go
+- Proxy
+- Iptables
