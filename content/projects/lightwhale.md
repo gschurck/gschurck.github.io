@@ -42,7 +42,7 @@ Lightwhale can automatically save the memory state of containers that have not b
 
 ## Video demonstration
 
-Demonstration of a prototype using a custom Go proxy and iptables.
+Demonstration of a prototype using a custom Go proxy and Linux iptables.
 
 {{< youtube miGcR-hPLTI >}}
 
