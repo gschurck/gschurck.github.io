@@ -30,7 +30,7 @@ weight: 3
 
 Often you'll have a lot of Docker containers running on your computer or server, and you don't really use them much. So they are still running and taking up precious memory.
 
-Okay, but wait, if we shut down these containers to free up memory, we have to start them up again later, and that takes time and it's not very convenient or optimal.
+Okay, but wait, if we shut down these containers to free up memory, we have to start them up again later. That takes time and it's not very convenient or optimal.
 
 It would be really cool if we could free up that memory while keeping the containers accessible and ready to use when we need them, right?
 
