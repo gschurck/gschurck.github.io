@@ -23,7 +23,7 @@ ShowPostNavLinks: true
 ShowWordCount: false
 ShowRssButtonInSectionTermList: true
 UseHugoToc: true
-weight: 3
+weight: 2
 ---
 
 ## Intro
