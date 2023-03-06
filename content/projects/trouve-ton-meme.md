@@ -23,13 +23,7 @@ ShowPostNavLinks: true
 ShowWordCount: false
 ShowRssButtonInSectionTermList: true
 UseHugoToc: true
-weight: 3
-cover:
-    image: "/trouve_ton_meme.png" # image path/url
-    alt: "<alt text>" # alt text
-    caption: "<text>" # display caption under cover
-    relative: false # when using page bundles set this to true
-    hidden: true # only hide on current single page
+weight: 4
 ---
 
 A website to find memes to use in chats according to:
