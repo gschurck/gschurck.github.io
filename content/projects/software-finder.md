@@ -1,5 +1,5 @@
 ---
-title: "Software Finder: A new way to find software alternatives"
+title: "🔎 Software Finder: A new way to find software alternatives"
 # weight: 1
 # aliases: ["/first"]
 tags: ["projects","graph","neo4j","svelte", "sveltekit", "typescript", "serverless", "vercel"]
@@ -8,7 +8,8 @@ TocOpen: false
 draft: false
 hidemeta: true
 comments: false
-description: "A knowledge graph of softwares similarity"
+summary: "A knowledge graph website of softwares similarities"
+description: "A knowledge graph website of softwares similarities"
 canonicalURL: "https://canonical.url/to/page"
 disableHLJS: true # to disable highlightjs
 disableShare: false
@@ -66,10 +67,9 @@ Just enter 2 softwares of which you would like to find an alternative, and you w
 
 - Select 2 softwares
 - Get the list of all alternatives which have similar features of both softwares.
-![](/software-merger.png)
-  
+  ![](/software-merger.png)
 - Explore the graph of the whole software ecosystem
-![](/software-graph.png)
+  ![](/software-graph.png)
 
 ## Issues
 

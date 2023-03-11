@@ -1,5 +1,5 @@
 ---
-title: "Trouve Ton Meme: Meme finder website"
+title: "🔎 Trouve Ton Meme: Meme finder website"
 # weight: 1
 # aliases: ["/first"]
 tags: ["projects", "python", "django"]
@@ -10,7 +10,8 @@ TocOpen: false
 draft: false
 hidemeta: true
 comments: false
-description: "Don't lose time searching for a meme"
+summary: "Stop wasting time searching for memes"
+description: "Stop wasting time searching for memes"
 canonicalURL: "https://canonical.url/to/page"
 disableHLJS: true # to disable highlightjs
 disableShare: false

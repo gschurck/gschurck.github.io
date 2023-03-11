@@ -10,7 +10,8 @@ TocOpen: false
 draft: false
 hidemeta: true
 comments: false
-description: "Free up memory of your unused Docker containers"
+summary: "Free up memory taken by your unused Docker containers"
+description: "Free up memory taken by your unused Docker containers"
 canonicalURL: "https://canonical.url/to/page"
 disableHLJS: true # to disable highlightjs
 disableShare: false

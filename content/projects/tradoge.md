@@ -1,5 +1,5 @@
 ---
-title: "TraDOGE: Cryptocurrency trading bot with Twitter"
+title: "📈 TraDOGE: Cryptocurrency trading bot with Twitter"
 # weight: 1
 # aliases: ["/first"]
 tags: ["projects","python", "cryptocurrency"]
@@ -10,7 +10,8 @@ TocOpen: false
 draft: false
 hidemeta: true
 comments: false
-description: "Trade DOGE when Elon Musk tweets"
+summary: "Buy & sell DOGE when Elon Musk tweets about it"
+description: "Buy & sell DOGE when Elon Musk tweets about it"
 canonicalURL: "https://canonical.url/to/page"
 disableHLJS: true # to disable highlightjs
 disableShare: false
