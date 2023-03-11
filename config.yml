@@ -10,9 +10,9 @@ params:
     enabled: true
     defaultTheme: auto
     #title: "<Title>" # optional default will be site title
-    subtitle: "Developer
+    subtitle: "Developer with a passion for innovative technologies
     
-    
+
     I like to create things."
     imageUrl: https://avatars.githubusercontent.com/u/21091232
     imageTitle: "" # optional
