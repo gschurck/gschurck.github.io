@@ -12,7 +12,7 @@ hidemeta: true
 comments: false
 summary: "Free up memory taken by your unused Docker containers"
 description: "Free up memory taken by your unused Docker containers"
-canonicalURL: "https://canonical.url/to/page"
+canonicalURL: "https://gschurck.github.io/projects/lightwhale/"
 disableHLJS: true # to disable highlightjs
 disableShare: false
 disableHLJS: false

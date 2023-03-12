@@ -12,7 +12,7 @@ hidemeta: true
 comments: false
 summary: "Stop wasting time searching for memes"
 description: "Stop wasting time searching for memes"
-canonicalURL: "https://canonical.url/to/page"
+canonicalURL: "https://gschurck.github.io/projects/trouve-ton-meme/"
 disableHLJS: true # to disable highlightjs
 disableShare: false
 disableHLJS: false

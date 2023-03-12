@@ -10,7 +10,7 @@ hidemeta: true
 comments: false
 summary: "A knowledge graph website of softwares similarities"
 description: "A knowledge graph website of softwares similarities"
-canonicalURL: "https://canonical.url/to/page"
+canonicalURL: "https://gschurck.github.io/projects/software-finder/"
 disableHLJS: true # to disable highlightjs
 disableShare: false
 disableHLJS: false

@@ -12,7 +12,7 @@ hidemeta: true
 comments: false
 summary: "Buy & sell DOGE when Elon Musk tweets about it"
 description: "Buy & sell DOGE when Elon Musk tweets about it"
-canonicalURL: "https://canonical.url/to/page"
+canonicalURL: "https://gschurck.github.io/projects/tradoge/"
 disableHLJS: true # to disable highlightjs
 disableShare: false
 disableHLJS: false
