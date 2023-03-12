@@ -6,10 +6,11 @@ theme: PaperMod
 googleAnalytics: G-0GDW3G85ZR
 
 params:
+  description: Personal portfolio website
   profileMode:
     enabled: true
     defaultTheme: auto
-    #title: "<Title>" # optional default will be site title
+    title: Guillaume Schurck # optional default will be site title
     subtitle: "Developer with a passion for innovative technologies
     
 
