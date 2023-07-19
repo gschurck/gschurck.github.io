@@ -73,4 +73,5 @@ The tool can also track all new containers to automatically add them to its data
 
 ## Limitations
 
-Because Lightwhale uses incoming requests to guess when a container is not in use and to trigger the restoration of the container, it can't work with containers running long-running processes or cron jobs.
+- Because Lightwhale uses incoming requests to guess when a container is not in use and to trigger the restoration of the container, it can't work with containers running long-running processes or cron jobs.
+- Another not negligible issue I encountered is that inter-containers communication doesn't pass through iptables of the host and the custom lightwhale proxy, but directly by a Docker network. It is indeed an important issue as it could be really useful with a project using a huge docker compose for example. I am still investigating to find an effective solution to deal with it.
