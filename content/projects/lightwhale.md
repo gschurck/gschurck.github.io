@@ -25,6 +25,9 @@ ShowWordCount: false
 ShowRssButtonInSectionTermList: true
 UseHugoToc: true
 weight: 2
+cover:
+    image: "/lightwhale.png"
+    hidden: false
 ---
 
 ## Intro
