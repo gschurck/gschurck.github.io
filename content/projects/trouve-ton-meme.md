@@ -24,7 +24,10 @@ ShowPostNavLinks: true
 ShowWordCount: false
 ShowRssButtonInSectionTermList: true
 UseHugoToc: true
-weight: 4
+weight: 3
+cover:
+    image: "/trouve_ton_meme_hero.png"
+    hidden: true
 ---
 
 A website to find memes to use in chats according to:
@@ -34,7 +37,7 @@ A website to find memes to use in chats according to:
 
 > Still in development, images are random examples currently.
 
-[Website link (will be up again soon)](https://jsklgnvatw.eu07.qoddiapp.com)
+[Website link](https://dev.trouvetonmeme.com)
 
 ![Screenshot](/trouve_ton_meme.png)
 
@@ -42,9 +45,11 @@ A website to find memes to use in chats according to:
 
 - Python
 - Django
-- Django-Unicorn for components with Ajax requests refresh without page reload
+- HTMX for components with Ajax requests refresh without full page reload
 - S3 storage for media files
 - Redis cache
+- BLIP AI model for image description generation
+- PostgreSQL database (with word trigram similarity search)
 
 ## Features
 
@@ -53,6 +58,6 @@ A website to find memes to use in chats according to:
 - User accounts
 - Bookmarking
 - Upload meme
-- Admin meme validation
+- Admin meme validation and moderation
 - User ranking
 - Rate limiting
