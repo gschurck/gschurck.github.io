@@ -22,6 +22,7 @@ params:
     image:
       url: https://avatars.githubusercontent.com/u/21091232
       link : https://github.com/gschurck
+      title: " "
   profileMode:
     enabled: false
     defaultTheme: auto
@@ -31,7 +32,7 @@ params:
 
     I like to create things."
     imageUrl: https://avatars.githubusercontent.com/u/21091232
-    imageTitle: "" # optional
+    imageTitle: " " # optional
     imageWidth: 120 # custom size
     imageHeight: 120 # custom size
     buttons:
