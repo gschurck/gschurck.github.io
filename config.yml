@@ -7,6 +7,15 @@ googleAnalytics: G-0GDW3G85ZR
 
 params:
   description: Personal portfolio website
+  homeInfoParams:
+    Title: Guillaume Schurck
+    Content: "Developer with a passion for innovative technologies
+    
+
+    I like to create things.
+    
+    
+    Check my projects ⬇"
   profileMode:
     enabled: true
     defaultTheme: auto
