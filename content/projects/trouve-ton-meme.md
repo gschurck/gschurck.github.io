@@ -37,7 +37,7 @@ A website to find memes to use in chats according to:
 
 > Still in development, images are random examples currently.
 
-[Website link](https://dev.trouvetonmeme.com)
+[Website link](https://trouvetonmeme.com)
 
 ![Screenshot](/trouve_ton_meme.png)
 
