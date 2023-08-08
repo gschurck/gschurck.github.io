@@ -6,6 +6,9 @@ theme: PaperMod
 googleAnalytics: G-0GDW3G85ZR
 
 params:
+  label:
+    text: "GS"
+    # icon: https://avatars.githubusercontent.com/u/21091232
   description: Personal portfolio website
   homeInfoParams:
     title: Guillaume Schurck
@@ -44,7 +47,7 @@ params:
     - name: twitter
       url: "https://twitter.com/gschurck"
   tocopen: true
-  hideFooter: true
+  hideFooter: false
   ShowFullTextinRSS: true
   ShowRssButtonInSectionTermList: true
 menu:
