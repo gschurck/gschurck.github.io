@@ -26,8 +26,8 @@ ShowRssButtonInSectionTermList: true
 UseHugoToc: true
 weight: 4
 cover:
-    image: "/tradoge2.png" # image path/url
-    alt: "<alt text>" # alt text
+    image: "/tradoge2.webp" # image path/url
+    alt: "TraDOGE screenshot"
     caption: "<text>" # display caption under cover
     relative: false # when using page bundles set this to true
     hidden: true # only hide on current single page
@@ -37,7 +37,7 @@ TraDOGE is a DOGE trading bot for instantly buying and selling DOGE cryptocurren
 
 [Github Repository](https://github.com/gschurck/tradoge)
 
-![Screenshot](/tradoge.png)
+![Screenshot](/tradoge.webp)
 
 ## Technologies
 

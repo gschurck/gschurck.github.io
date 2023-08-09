@@ -24,8 +24,8 @@ ShowRssButtonInSectionTermList: true
 UseHugoToc: true
 weight: 1
 cover:
-    image: "/software-finder.png" # image path/url
-    alt: "<alt text>" # alt text
+    image: "/software-finder.webp" # image path/url
+    alt: "Software Finder screenshot" # alt text
     caption: "<text>" # display caption under cover
     relative: false # when using page bundles set this to true
     hidden: true # only hide on current single page
@@ -44,7 +44,7 @@ Just enter 2 softwares of which you would like to find an alternative, and you w
 
 [Project link](https://software-graph.vercel.app)
 
-![](/software-finder.png)
+![](/software-finder.webp)
 
 ## Under the hood
 
@@ -53,7 +53,7 @@ Just enter 2 softwares of which you would like to find an alternative, and you w
 - Which ends with a knowledge graph of softwares similarity
 - Results are a shortest path query sorted according to the level of similarity, from one software to the other.
 
-![Graph](/bloom-visualisation-cropped.png)
+![Graph](/bloom-visualisation-cropped.webp)
 
 ## Technologies
 
@@ -67,9 +67,9 @@ Just enter 2 softwares of which you would like to find an alternative, and you w
 
 - Select 2 softwares
 - Get the list of all alternatives which have similar features of both softwares.
-  ![](/software-merger.png)
+  ![](/software-merger.webp)
 - Explore the graph of the whole software ecosystem
-  ![](/software-graph.png)
+  ![](/software-graph.webp)
 
 ## Issues
 

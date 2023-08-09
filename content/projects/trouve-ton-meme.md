@@ -26,7 +26,8 @@ ShowRssButtonInSectionTermList: true
 UseHugoToc: true
 weight: 3
 cover:
-    image: "/trouve_ton_meme_hero.png"
+    image: "/trouve_ton_meme_hero.webp"
+    alt: "Trouve Ton Meme screenshot"
     hidden: true
 ---
 
@@ -39,7 +40,7 @@ A website to find memes to use in chats according to:
 
 [Website link](https://trouvetonmeme.com)
 
-![Screenshot](/trouve_ton_meme.png)
+![Screenshot](/trouve_ton_meme.webp)
 
 ## Technologies
 

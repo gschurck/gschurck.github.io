@@ -26,7 +26,8 @@ ShowRssButtonInSectionTermList: true
 UseHugoToc: true
 weight: 2
 cover:
-    image: "/lightwhale.png"
+    image: "/lightwhale.webp"
+    alt: "Lightwhale illustration"
     hidden: false
 ---
 
