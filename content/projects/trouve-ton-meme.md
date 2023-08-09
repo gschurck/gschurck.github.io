@@ -29,6 +29,7 @@ cover:
     image: "/trouve_ton_meme_hero.webp"
     alt: "Trouve Ton Meme screenshot"
     hidden: true
+    responsiveImages: true
 ---
 
 A website to find memes to use in chats according to:

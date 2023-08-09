@@ -29,6 +29,7 @@ cover:
     image: "/lightwhale.webp"
     alt: "Lightwhale illustration"
     hidden: false
+    responsiveImages: true
 ---
 
 ## Intro

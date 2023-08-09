@@ -26,9 +26,9 @@ weight: 1
 cover:
     image: "/software-finder.webp" # image path/url
     alt: "Software Finder screenshot" # alt text
-    caption: "<text>" # display caption under cover
     relative: false # when using page bundles set this to true
     hidden: true # only hide on current single page
+    responsiveImages: true
 ---
 
 ## Intro
