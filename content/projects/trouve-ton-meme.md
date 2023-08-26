@@ -1,5 +1,5 @@
 ---
-title: "🔎 Trouve Ton Meme: Meme finder website"
+title: "🔎 Trouve Ton Meme: Powerful meme search engine"
 # weight: 1
 # aliases: ["/first"]
 tags: ["projects", "python", "django"]
@@ -24,7 +24,7 @@ ShowPostNavLinks: true
 ShowWordCount: false
 ShowRssButtonInSectionTermList: true
 UseHugoToc: true
-weight: 3
+weight: 1
 cover:
     image: "/trouve_ton_meme_hero.webp"
     alt: "Trouve Ton Meme screenshot"
@@ -50,8 +50,8 @@ A website to find memes to use in chats according to:
 - HTMX for components with Ajax requests refresh without full page reload
 - S3 storage for media files
 - Redis cache
-- BLIP AI model for image description generation
-- PostgreSQL database (with word trigram similarity search)
+- CLIP AI model for image search by using image and text embeddings
+- PostgreSQL database (with pgvector extension)
 
 ## Features
 
@@ -63,3 +63,5 @@ A website to find memes to use in chats according to:
 - Admin meme validation and moderation
 - User ranking
 - Rate limiting
+
+![Diagram](/ttm-diagram.png)

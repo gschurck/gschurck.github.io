@@ -22,7 +22,7 @@ ShowPostNavLinks: true
 ShowWordCount: true
 ShowRssButtonInSectionTermList: true
 UseHugoToc: true
-weight: 1
+weight: 3
 cover:
     image: "/software-finder.webp" # image path/url
     alt: "Software Finder screenshot" # alt text
