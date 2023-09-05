@@ -1,5 +1,5 @@
 ---
-title: "📈 TraDOGE: Cryptocurrency trading bot with Twitter"
+title: "📈 TraDOGE"
 # weight: 1
 # aliases: ["/first"]
 tags: ["projects","python", "cryptocurrency"]
@@ -10,8 +10,8 @@ TocOpen: false
 draft: false
 hidemeta: true
 comments: false
-summary: "Buy & sell DOGE when Elon Musk tweets about it"
-description: "Buy & sell DOGE when Elon Musk tweets about it"
+summary: "Cryptocurrency trading bot with Twitter"
+description: "Cryptocurrency trading bot with Twitter"
 canonicalURL: "https://gschurck.github.io/projects/tradoge/"
 disableHLJS: true # to disable highlightjs
 disableShare: false
@@ -31,6 +31,7 @@ cover:
     relative: false # when using page bundles set this to true
     hidden: true # only hide on current single page
     responsiveImages: true
+# Buy & sell DOGE when Elon Musk tweets about it
 ---
 
 TraDOGE is a DOGE trading bot for instantly buying and selling DOGE cryptocurrency on Binance when Elon Musk tweets about it.

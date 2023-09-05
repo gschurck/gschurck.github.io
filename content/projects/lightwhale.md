@@ -1,5 +1,5 @@
 ---
-title: "🐋 Lightwhale: Docker memory optimizer on Linux"
+title: "🐋 Lightwhale"
 # weight: 1
 # aliases: ["/first"]
 tags: ["projects"]
@@ -10,8 +10,8 @@ TocOpen: false
 draft: false
 hidemeta: true
 comments: false
-summary: "Free up memory taken by your unused Docker containers"
-description: "Free up memory taken by your unused Docker containers"
+summary: "Docker memory optimizer on Linux"
+description: "Docker memory optimizer on Linux"
 canonicalURL: "https://gschurck.github.io/projects/lightwhale/"
 disableHLJS: true # to disable highlightjs
 disableShare: false
@@ -30,7 +30,9 @@ cover:
     alt: "Lightwhale illustration"
     hidden: false
     responsiveImages: true
+# Free up memory taken by your unused Docker containers
 ---
+
 
 ## Intro
 

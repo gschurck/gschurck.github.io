@@ -1,5 +1,5 @@
 ---
-title: "🔎 Trouve Ton Meme: Powerful meme search engine"
+title: "🔎 Trouve Ton Meme"
 # weight: 1
 # aliases: ["/first"]
 tags: ["projects", "python", "django"]
@@ -10,8 +10,9 @@ TocOpen: false
 draft: false
 hidemeta: true
 comments: false
-summary: "Stop wasting time searching for memes"
-description: "Stop wasting time searching for memes"
+summary: "A powerful meme search engine"
+subtitle: "A powerful meme search engine"
+description: "A powerful meme search engine"
 canonicalURL: "https://gschurck.github.io/projects/trouve-ton-meme/"
 disableHLJS: true # to disable highlightjs
 disableShare: false

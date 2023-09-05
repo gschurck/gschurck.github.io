@@ -1,5 +1,5 @@
 ---
-title: "🔎 Software Finder: A new way to find software alternatives"
+title: "🔎 Software Finder"
 # weight: 1
 # aliases: ["/first"]
 tags: ["projects","graph","neo4j","svelte", "sveltekit", "typescript", "serverless", "vercel"]
@@ -8,8 +8,8 @@ TocOpen: false
 draft: false
 hidemeta: true
 comments: false
-summary: "A knowledge graph website of softwares similarities"
-description: "A knowledge graph website of softwares similarities"
+summary: "A new way to find software alternatives using knowledge graph"
+description: "A new way to find software alternatives knowledge graph"
 canonicalURL: "https://gschurck.github.io/projects/software-finder/"
 disableHLJS: true # to disable highlightjs
 disableShare: false
@@ -29,6 +29,7 @@ cover:
     relative: false # when using page bundles set this to true
     hidden: true # only hide on current single page
     responsiveImages: true
+# A website of softwares similarities
 ---
 
 ## Intro
