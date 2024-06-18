@@ -24,7 +24,7 @@ ShowPostNavLinks: true
 ShowWordCount: true
 ShowRssButtonInSectionTermList: true
 UseHugoToc: true
-weight: 4
+weight: 2
 cover:
     image: "/tradoge2.webp" # image path/url
     alt: "TraDOGE screenshot"

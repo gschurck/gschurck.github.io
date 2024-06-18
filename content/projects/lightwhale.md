@@ -24,7 +24,7 @@ ShowPostNavLinks: true
 ShowWordCount: false
 ShowRssButtonInSectionTermList: true
 UseHugoToc: true
-weight: 2
+weight: 4
 cover:
     image: "/lightwhale.webp"
     alt: "Lightwhale illustration"
