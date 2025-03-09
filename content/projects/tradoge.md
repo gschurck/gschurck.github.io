@@ -38,17 +38,16 @@ TraDOGE is a DOGE trading bot for instantly buying and selling DOGE cryptocurren
 
 [Github Repository](https://github.com/gschurck/tradoge)
 
+<!--
 ![Screenshot](/tradoge.webp)
+-->
 
 ## Technologies
 
-- Python
-- CCXT API Crypto
-- Twitter API
-- Websocket
+- Go
+- Binance API
 
 ## Features
 
-- Auto trigger on new tweet with websocket
+- Auto trigger on new tweet
 - Healthcheck to alert on downtime
-- Friendly terminal UI
