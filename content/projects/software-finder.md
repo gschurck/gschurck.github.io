@@ -5,7 +5,7 @@ title: "🔎 Software Finder"
 tags: ["projects","graph","neo4j","svelte", "sveltekit", "typescript", "serverless", "vercel"]
 showToc: true
 TocOpen: false
-draft: false
+draft: true
 hidemeta: true
 comments: false
 summary: "A new way to find software alternatives using knowledge graph"
