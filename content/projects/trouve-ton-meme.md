@@ -38,7 +38,7 @@ A website to find memes to use in chats according to:
 - Categories
 - Search by describing the image you are looking for
 
-[Website link](https://trouvetonmeme.com)
+[Website link](https://trouveton.meme)
 
 ![Screenshot](/trouve_ton_meme.webp)
 
