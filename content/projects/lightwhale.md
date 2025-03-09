@@ -7,7 +7,7 @@ author: "Me"
 # author: ["Me", "You"] # multiple authors
 showToc: true
 TocOpen: false
-draft: false
+draft: true
 hidemeta: true
 comments: false
 summary: "Docker memory optimizer on Linux"
